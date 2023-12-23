@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid fuchsia;
+}
+.navbar{
+    width: 100%;
+    height: 63px;
+    background-color: #2E0052;
+}
+.leftside{
+    border: 1px solid yellow;
+    display: flex;
+   justify-content: space-between;
+}
+.leftside>img{
+    height: 63px;
+    width: 63px;
+}
+.leftside>p{
+    color: #FFFFFF;
+    size: 18px;
+    font-weight: 500;
+    
+}
+.midside{
+    display: flex;
+   justify-content: space-between;
+}
+.musicart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightside{
+    width: 189px;
+    height: 52px;
+    border-radius: 47px;
+    background-color: #1D7000;
+    display: flex;
+}
+.rightside>img{
+    height: 27px;
+    width: 27px;
+}
+.headerImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle{
+    height: 300px;
+    width: 1300px;
+}
+.headerImg>h1{
+    position: absolute;
+    left: 180px;
+   width: 400px;
+}
+.headphone{
+    position: absolute;
+    right: 100px;
+    height: 200px;
+    width: 200px;
+}
+.headerImg>button{
+    width: 200px;
+    height: 60px;
+    background-color: #2E0052;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: 400;
+    position: absolute;
+    left: 180px;
+    bottom: 300px;
+
+}
+.inputbox{
+    width: 1500px;
+    height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.products{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.products div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(150, 22, 225);
+}
